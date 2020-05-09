@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D3238C52456E181003AA0C4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D3238C42456E181003AA0C4 /* main.c */; };
+		3D4666ED245C0E4000346CD4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D4666EC245C0E4000346CD4 /* main.c */; };
+		3D7B450C245EC5080086931F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B450B245EC5080086931F /* main.c */; };
+		3DD427B6245D2A4100A7CBA5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DD427B5245D2A4100A7CBA5 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D3238BF2456E181003AA0C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3D4666E8245C0E4000346CD4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3D7B4507245EC5080086931F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3DD427B1245D2A4100A7CBA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D3238C12456E181003AA0C4 /* 计算机数值分析 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "计算机数值分析"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3238C42456E181003AA0C4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3D4666EA245C0E4000346CD4 /* 数值积分与微分 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数值积分与微分"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4666EC245C0E4000346CD4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3D7B4509245EC5080086931F /* 方程求根 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "方程求根"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7B450B245EC5080086931F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3DD427B3245D2A4100A7CBA5 /* 常微分方程 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "常微分方程"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD427B5245D2A4100A7CBA5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3238BE2456E181003AA0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4666E7245C0E4000346CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7B4506245EC5080086931F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD427B0245D2A4100A7CBA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D3238B82456E181003AA0C4 = {
+			isa = PBXGroup;
+			children = (
+				3D3238C32456E181003AA0C4 /* 计算机数值分析 */,
+				3D4666EB245C0E4000346CD4 /* 数值积分与微分 */,
+				3DD427B4245D2A4100A7CBA5 /* 常微分方程 */,
+				3D7B450A245EC5080086931F /* 方程求根 */,
+				3D3238C22456E181003AA0C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D3238C22456E181003AA0C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D3238C12456E181003AA0C4 /* 计算机数值分析 */,
+				3D4666EA245C0E4000346CD4 /* 数值积分与微分 */,
+				3DD427B3245D2A4100A7CBA5 /* 常微分方程 */,
+				3D7B4509245EC5080086931F /* 方程求根 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D3238C32456E181003AA0C4 /* 计算机数值分析 */ = {
+			isa = PBXGroup;
+			children = (
+				3D3238C42456E181003AA0C4 /* main.c */,
+			);
+			path = "计算机数值分析";
+			sourceTree = "<group>";
+		};
+		3D4666EB245C0E4000346CD4 /* 数值积分与微分 */ = {
+			isa = PBXGroup;
+			children = (
+				3D4666EC245C0E4000346CD4 /* main.c */,
+			);
+			path = "数值积分与微分";
+			sourceTree = "<group>";
+		};
+		3D7B450A245EC5080086931F /* 方程求根 */ = {
+			isa = PBXGroup;
+			children = (
+				3D7B450B245EC5080086931F /* main.c */,
+			);
+			path = "方程求根";
+			sourceTree = "<group>";
+		};
+		3DD427B4245D2A4100A7CBA5 /* 常微分方程 */ = {
+			isa = PBXGroup;
+			children = (
+				3DD427B5245D2A4100A7CBA5 /* main.c */,
+			);
+			path = "常微分方程";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D3238C02456E181003AA0C4 /* 计算机数值分析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3238C82456E181003AA0C4 /* Build configuration list for PBXNativeTarget "计算机数值分析" */;
+			buildPhases = (
+				3D3238BD2456E181003AA0C4 /* Sources */,
+				3D3238BE2456E181003AA0C4 /* Frameworks */,
+				3D3238BF2456E181003AA0C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "计算机数值分析";
+			productName = "计算机数值分析";
+			productReference = 3D3238C12456E181003AA0C4 /* 计算机数值分析 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3D4666E9245C0E4000346CD4 /* 数值积分与微分 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4666F0245C0E4000346CD4 /* Build configuration list for PBXNativeTarget "数值积分与微分" */;
+			buildPhases = (
+				3D4666E6245C0E4000346CD4 /* Sources */,
+				3D4666E7245C0E4000346CD4 /* Frameworks */,
+				3D4666E8245C0E4000346CD4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "数值积分与微分";
+			productName = "数值积分与微分";
+			productReference = 3D4666EA245C0E4000346CD4 /* 数值积分与微分 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3D7B4508245EC5080086931F /* 方程求根 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7B450F245EC5080086931F /* Build configuration list for PBXNativeTarget "方程求根" */;
+			buildPhases = (
+				3D7B4505245EC5080086931F /* Sources */,
+				3D7B4506245EC5080086931F /* Frameworks */,
+				3D7B4507245EC5080086931F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "方程求根";
+			productName = "方程求根";
+			productReference = 3D7B4509245EC5080086931F /* 方程求根 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3DD427B2245D2A4100A7CBA5 /* 常微分方程 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD427B9245D2A4100A7CBA5 /* Build configuration list for PBXNativeTarget "常微分方程" */;
+			buildPhases = (
+				3DD427AF245D2A4100A7CBA5 /* Sources */,
+				3DD427B0245D2A4100A7CBA5 /* Frameworks */,
+				3DD427B1245D2A4100A7CBA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "常微分方程";
+			productName = "常微分方程";
+			productReference = 3DD427B3245D2A4100A7CBA5 /* 常微分方程 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D3238B92456E181003AA0C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = tianyu;
+				TargetAttributes = {
+					3D3238C02456E181003AA0C4 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					3D4666E9245C0E4000346CD4 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					3D7B4508245EC5080086931F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					3DD427B2245D2A4100A7CBA5 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D3238BC2456E181003AA0C4 /* Build configuration list for PBXProject "计算机数值分析" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D3238B82456E181003AA0C4;
+			productRefGroup = 3D3238C22456E181003AA0C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D3238C02456E181003AA0C4 /* 计算机数值分析 */,
+				3D4666E9245C0E4000346CD4 /* 数值积分与微分 */,
+				3DD427B2245D2A4100A7CBA5 /* 常微分方程 */,
+				3D7B4508245EC5080086931F /* 方程求根 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3238BD2456E181003AA0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3238C52456E181003AA0C4 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4666E6245C0E4000346CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4666ED245C0E4000346CD4 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7B4505245EC5080086931F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7B450C245EC5080086931F /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD427AF245D2A4100A7CBA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD427B6245D2A4100A7CBA5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D3238C62456E181003AA0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3D3238C72456E181003AA0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3D3238C92456E181003AA0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D3238CA2456E181003AA0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D4666EE245C0E4000346CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D4666EF245C0E4000346CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D7B450D245EC5080086931F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D7B450E245EC5080086931F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DD427B7245D2A4100A7CBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DD427B8245D2A4100A7CBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D3238BC2456E181003AA0C4 /* Build configuration list for PBXProject "计算机数值分析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3238C62456E181003AA0C4 /* Debug */,
+				3D3238C72456E181003AA0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3238C82456E181003AA0C4 /* Build configuration list for PBXNativeTarget "计算机数值分析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3238C92456E181003AA0C4 /* Debug */,
+				3D3238CA2456E181003AA0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4666F0245C0E4000346CD4 /* Build configuration list for PBXNativeTarget "数值积分与微分" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4666EE245C0E4000346CD4 /* Debug */,
+				3D4666EF245C0E4000346CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7B450F245EC5080086931F /* Build configuration list for PBXNativeTarget "方程求根" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7B450D245EC5080086931F /* Debug */,
+				3D7B450E245EC5080086931F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD427B9245D2A4100A7CBA5 /* Build configuration list for PBXNativeTarget "常微分方程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD427B7245D2A4100A7CBA5 /* Debug */,
+				3DD427B8245D2A4100A7CBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D3238B92456E181003AA0C4 /* Project object */;
+}
